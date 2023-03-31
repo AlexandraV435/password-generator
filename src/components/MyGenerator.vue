@@ -64,6 +64,11 @@ export default {
       if (this.checkedSymbols) {
         resArr = resArr.concat(this.symbols);
       }
+
+      if (!this.checkedLowercase && !this.checkedNumbers && ! this.checkedSymbols && !this.checkedUppercase) {
+        resArr = resArr.concat(this.lowercase)
+      }
+      
       this.resPass = '';
       for (let i  = 0; i < this.value; i++) {
         this.resPass += resArr[Math.floor(Math.random()*resArr.length)];
