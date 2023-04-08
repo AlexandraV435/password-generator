@@ -1,4 +1,4 @@
-https://alexandrav843.github.io/password-generator/
+[Готовое приложение](https://alexandrav843.github.io/password-generator/)
 
 # password-generator
 
